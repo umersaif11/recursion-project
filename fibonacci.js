@@ -4,7 +4,7 @@ function fibsIterative(n){
         if(n === 0){
             array.push(0);
         } else if(n === 1){
-            
+            array.push(1);
         }
     }
 }
