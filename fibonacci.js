@@ -14,8 +14,8 @@ function fibsIterative(n){
 }
 //fibonacci sequence array using recursion
 function fibsRecursive(n){
-    if( n === 0) return [0];
-    if( n === 1) return [0, 1];
+    if( n === 1) return [0];
+    if( n === 2) return [0, 1];
     let array = fibsRecursive(n - 1);
-    return [...array, array[n - 1] + array[n - 2]];
+    return [...array, array[n - 2] + array[n - 3]];
 }
