@@ -14,5 +14,6 @@ function fibsIterative(n){
 }
 //fibonacci sequence array using recursion
 function fibsRecursive(n){
+    if( n === 0) return [0];
     
 }
