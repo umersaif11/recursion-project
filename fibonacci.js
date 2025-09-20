@@ -1,3 +1,4 @@
+//fibonacci sequence array using for loop
 function fibsIterative(n){
     let array = [];
     for(let i = 0; i < n; i++){
@@ -11,4 +12,7 @@ function fibsIterative(n){
     }
     return array;
 }
-console.log(fibsIterative(5));
+//fibonacci sequence array using recursion
+function fibsRecursive(n){
+    
+}
