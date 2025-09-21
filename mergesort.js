@@ -25,5 +25,10 @@ function mergesort(array){
             finalArray.push(sortLeft[i]);
             i++;
         }
+        while(j < sortRight.length){
+            finalArray.push(sortRight[j]);
+            j++;
+        }
+        
     }
 }
