@@ -16,7 +16,14 @@ function mergesort(array){
             if(sortLeft[i] < sortRight[j]){
                 finalArray.push(sortLeft[i]);
                 i++;
+            } else {
+                finalArray.push(sortRight[j]);
+                j++;
             }
+        }
+        while(i < sortLeft.length){
+            finalArray.push(sortLeft[i]);
+            i++;
         }
     }
 }
