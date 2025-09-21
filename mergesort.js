@@ -29,6 +29,6 @@ function mergesort(array){
             finalArray.push(sortRight[j]);
             j++;
         }
-        
+        return finalArray;
     }
 }
