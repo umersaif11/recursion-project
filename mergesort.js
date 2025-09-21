@@ -12,5 +12,8 @@ function mergesort(array){
         let i = 0;
         let j = 0;
         let finalArray = [];
+        while(i < sortLeft.length && j < sortRight.length){
+            
+        }
     }
 }
