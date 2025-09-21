@@ -8,5 +8,9 @@ function mergesort(array){
 
         let sortLeft = mergesort(leftHalf);
         let sortRight = mergesort(rightHalf);
+
+        let i = 0;
+        let j = 0;
+        let finalArray = [];
     }
 }
