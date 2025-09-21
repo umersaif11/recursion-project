@@ -13,7 +13,10 @@ function mergesort(array){
         let j = 0;
         let finalArray = [];
         while(i < sortLeft.length && j < sortRight.length){
-            
+            if(sortLeft[i] < sortRight[j]){
+                finalArray.push(sortLeft[i]);
+                i++;
+            }
         }
     }
 }
