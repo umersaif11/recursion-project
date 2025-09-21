@@ -5,5 +5,8 @@ function mergesort(array){
         const mid = Math.floor(array.length / 2);
         const leftHalf = array.slice(0, mid);
         const rightHalf = array.slice(mid);
+
+        let sortLeft = mergesort(leftHalf);
+        let sortRight = mergesort(rightHalf);
     }
 }
